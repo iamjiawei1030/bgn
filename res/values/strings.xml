@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LOLhowdoIBGN?</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg">Insert message to encrypt</string>
+    <string name="send">Send</string>
+    <string name="output">Response</string>
+    <string name="bits">Insert number of bits</string>
+    <string name="save">Save</string>
+    <string name="progress">Current progress:</string>
+
+</resources>

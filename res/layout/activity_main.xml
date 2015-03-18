@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <TextView
+        android:id="@+id/LblMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msg" />
+ 
+    <EditText
+        android:id="@+id/TxtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+    
+    <TextView
+        android:id="@+id/LblBits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bits" />
+    
+    <EditText
+        android:id="@+id/TxtBits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/BtnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:text="@string/send" />
+
+    <ProgressBar
+        android:id="@+id/pBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/progress"
+        android:indeterminate="false"
+        android:max="100"
+        android:maxHeight="16dp"
+        android:minHeight="48dp" />
+    
+</LinearLayout>
